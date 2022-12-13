@@ -23,7 +23,7 @@ export default function Portfolios({ onClick }: PortfoliosProps) {
                                 <p className="text-right text-[1.5rem] text-grey-200 sm:text-[1rem] xs:text-[1rem]">{experience.position}</p>
                                 <p className="text-right text-[1rem] text-grey-500 sm:text-[.75rem] xs:text-[.75rem]">{experience.period}</p>
                             </div>
-                            <p className="mx-[10%] text-left text-[1rem] mb-6 xs:text-[.9rem] sm:text-[.9rem]">{experience.jobDescHeader}</p>
+                            <p className="mx-[10%] text-left text-[1rem] my-6 xs:text-[.9rem] sm:text-[.9rem]">{experience.jobDescHeader}</p>
                             <div className="my-8 ml-[12%] mr-[10%]">
                                 <ul style={{ listStyleType: "circle" }}> 
                                     {experience.jobDesc && experience.jobDesc.length && experience.jobDesc.map(jobDesc => {
