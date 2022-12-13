@@ -18,7 +18,16 @@ module.exports = {
       backgroundColor: {
         "grey-200": "var(--grey-200)",
       },
-    }
+    },
+    screens: {
+      'xs' : {'max': '375px'},
+
+      'sm': {'min': '376px', 'max': '1279px'},
+      // => @media (max-width: 1023px) { ... }
+  
+      'lg': {'min': '1280px'},
+      // => @media (min-width: 1024px) { ... }
+    },
   },
   plugins: [],
 }

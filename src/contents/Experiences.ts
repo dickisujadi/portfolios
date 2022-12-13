@@ -11,6 +11,7 @@ export const experiences: Experience[] = [
         country: 'Singapore',
         period: 'Jan 2022 - Dec 2022',
         position: 'Front End Engineer',
+        jobDescHeader: 'Built cash-flow management products and focused on User Interface building, job descriptions such as:',
         jobDesc: [
             'Collaborated with Back-End Engineers to design JSON objects which used on UI.',
             'Improved code efficiency on UI by designing and developing data-driven components using React.',
@@ -26,6 +27,7 @@ export const experiences: Experience[] = [
         country: 'Indonesia',
         period: 'Apr 2020 - Dec 2021',
         position: 'Software Engineer',
+        jobDescHeader: "Managed Pt. HM Sampoerna's Sales System with job descriptions such as:",
         jobDesc: [
             "Cooperated with client's stakeholders to gather business-values, translated into technical solutions and implemented using C# .Net and SQL Server features.",
             "Presented technical solutions which meet business-values by conducting UAT.",
@@ -40,6 +42,7 @@ export const experiences: Experience[] = [
         country: 'Indonesia',
         period: 'Apr 2018 - Jun 2019',
         position: 'Software Engineer',
+        jobDescHeader: 'Built a reward system for employees, job descriptions such as:',
         jobDesc: [
             "Participated into initiation, planning, and developments.",
             "Built Back-End application which produce REST API using Node JS.",
@@ -54,6 +57,7 @@ export const experiences: Experience[] = [
         country: 'Indonesia',
         period: 'Aug 2018 - Jan 2019',
         position: 'Software Engineer',
+        jobDescHeader: "Enhanced Mitsubishi's Sales System, job descriptions such as:",
         jobDesc: [
             "Enhanced Mitsubishi's application by gathering business value from client's stakeholders, translating into technical solutions to be provided to developers.",
             "Organized technical documentations to be presented on UAT and SIT with client's stakeholders."
@@ -67,6 +71,7 @@ export const experiences: Experience[] = [
         country: 'Indonesia',
         period: 'Sep 2012 - Jul 2013',
         position: 'Project Lead',
+        jobDescHeader: "Participated in SuperWifi project with job descriptions such as:",
         jobDesc: [
             "Did survey on client site for installation of network devices based on network coverages and obstacles.",
             "Managed and directed vendors on client site survey, installation and integration of network devices.",

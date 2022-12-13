@@ -4,6 +4,7 @@ export interface Experience {
     country: string,
     period: string,
     position: string,
+    jobDescHeader: string,
     jobDesc: string[],
     logo: string,
     color: string,
