@@ -12,6 +12,8 @@ module.exports = {
         "grey-500": "var(--grey-500)",
         "eaciit": "#F59828",
         "kano": "#5DA6E2",
+        "mitrais": "#A351F1",
+        "im2": "#3B89E9"
       },
       backgroundColor: {
         "grey-200": "var(--grey-200)",

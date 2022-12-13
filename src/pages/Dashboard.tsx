@@ -10,12 +10,16 @@ export default function Dashboard() {
         setPage(pageNumber)
     }
 
+    const backHelloHandler = () => {
+        setPage(pages.hello)
+    }
+
     const renderSwitch = () => {
         switch (page) {
             case pages.hello:
                 return <Hello onClick={changePageHandler}/>
             case pages.portfolios:
-                return <Portfolios />
+                return <Portfolios onClick={backHelloHandler}/>
         }
     }
 
