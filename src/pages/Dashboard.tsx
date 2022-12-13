@@ -4,7 +4,7 @@ import Hello from "./Hello";
 import Portfolios from "./Portfolios";
 
 export default function Dashboard() {
-    const [page, setPage] = useState<number>(0)
+    const [page, setPage] = useState<number>(pages.hello)
 
     const changePageHandler = (pageNumber: number) => {
         setPage(pageNumber)
