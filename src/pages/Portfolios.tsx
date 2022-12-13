@@ -17,7 +17,7 @@ export default function Portfolios({ onClick }: PortfoliosProps) {
                         </div>
 
                         <div className="mx-auto w-3/4 min-h-[70vh] border-4 border-solid border-[var(--grey-200)] mt-[4rem] rounded-[3.125rem] xs:mt-[2rem] sm:mt-[3rem] xs:border-2">
-                            <div className="mt-16 mx-[10%]">
+                            <div className="mt-16 mx-[10%] xs:mt-6 sm:mt-8">
                                 <p className={`text-left ${experience.color} text-[1.5rem] sm:text-[1rem] xs:text-[1rem]`}>{experience.company}</p>
                                 <p className="text-left text-[1.25rem] text-grey-500 sm:text-[.75rem] xs:text-[.75rem]">{experience.country}</p>
                                 <p className="text-right text-[1.5rem] text-grey-200 sm:text-[1rem] xs:text-[1rem]">{experience.position}</p>
