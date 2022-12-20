@@ -5,7 +5,7 @@ interface ButtonProps {
 
 export default function Button({content, onClick}: ButtonProps) {
     return <div 
-        className="w-full uppercase border-2 rounded-full p-2 cursor-pointer border-[var(--primary-blue)] hover:bg-[var(--primary-blue)]  hover:text-white"
+        className="w-full capitalize border-2 rounded-full p-2 cursor-pointer border-[var(--primary-blue)] hover:bg-[var(--primary-blue)]  hover:text-white"
         onClick={onClick}
         >
             {content}

@@ -19,7 +19,7 @@ export default function Dashboard() {
             case pages.about:
                 return <About onClick={changePageHandler} />
             case pages.portfolios:
-                return <Portfolios onClick={backAboutHandler}/>
+                return <Portfolios onClick={changePageHandler}/>
         }
     }
 

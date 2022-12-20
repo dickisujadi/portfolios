@@ -22,7 +22,7 @@ export default function About({onClick}: AboutProps) {
                 <p className="text-[3.5rem] font-extralight">I do <span className="font-normal">Code</span></p>
             </div>
             <div className="w-1/5 xs:w-3/5 sm:w-2/5 mx-auto my-[10vh]">
-                <Button content="portfolios" onClick={() => {onClick(pages.portfolios)}} />
+                <Button content="See What I've Done" onClick={() => {onClick(pages.portfolios)}} />
             </div>
         </div>
         <Footer />
