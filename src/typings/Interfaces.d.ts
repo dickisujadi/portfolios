@@ -9,3 +9,8 @@ export interface Experience {
     logo: string,
     color: string,
 }
+
+export interface Page {
+    name: string;
+    pageIndex: number;
+}

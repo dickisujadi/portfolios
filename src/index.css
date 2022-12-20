@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto&display=swap');
 
 :root {
   --black-100: #393939;
@@ -11,18 +11,21 @@
   --grey-300: #D9DDE9;
   --grey-500: #B9B9B9;
   --aqua-900: #79EFFF;
+
+  --primary-blue: #00C2FF;
 }
 
 body {
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   align-items: center;
   align-content: center;
-  background-color: var(--black-100);
-  color: var(--grey-200);
+  background-color: white;
+  color: black;
 }
 
 code {

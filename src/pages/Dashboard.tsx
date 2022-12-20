@@ -1,25 +1,25 @@
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import { pages } from "../utilities/PagesMapping";
-import Hello from "./Hello";
+import About from "./About";
 import Portfolios from "./Portfolios";
 
 export default function Dashboard() {
-    const [page, setPage] = useState<number>(pages.hello)
+    const [page, setPage] = useState<number>(pages.about)
 
     const changePageHandler = (pageNumber: number) => {
         setPage(pageNumber)
     }
 
-    const backHelloHandler = () => {
-        setPage(pages.hello)
+    const backAboutHandler = () => {
+        setPage(pages.about)
     }
 
     const renderSwitch = () => {
         switch (page) {
-            case pages.hello:
-                return <Hello onClick={changePageHandler}/>
+            case pages.about:
+                return <About onClick={changePageHandler} />
             case pages.portfolios:
-                return <Portfolios onClick={backHelloHandler}/>
+                return <Portfolios onClick={backAboutHandler}/>
         }
     }
 

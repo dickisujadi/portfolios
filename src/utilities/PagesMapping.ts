@@ -1,4 +1,5 @@
 export const pages = {
-    hello: 0,
-    portfolios: 1
+    about: 0,
+    portfolios: 1,
+    hello: 2,
 }

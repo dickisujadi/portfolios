@@ -1,10 +1,6 @@
 import { useState, useEffect } from "react";
-interface HeaderProps {
-    content: string,
-    onClick?: () => void
-}
 
-export default function Header({ content, onClick }: HeaderProps) {
+export default function Footer() {
     const [isScrolled, setIsScrolled] = useState(false)
 
     useEffect(() => {
@@ -22,9 +18,7 @@ export default function Header({ content, onClick }: HeaderProps) {
         window.removeEventListener('scroll', scrollHandler)
         }
     }, []);
-
-    
-    return <div className={`fixed w-screen min-h-[10vh] ${isScrolled && 'shadow-xl'} bg-[var(--black-100)] z-20`}>
-        <p className="capitalize font-normal text-4xl text-left ml-[7vw] mt-[2vh] xs:text-2xl"><span className="hover:cursor-pointer" onClick={onClick}>{`< `}</span>{content}</p>
-    </div>
+    return <div className={`w-full h-[10vh] bottom-0 fixed bg-white ${isScrolled && 'border'}`}>
+    <p className="text-sm my-[4vh]">With <i style={{fontSize: '.875rem', color: 'var(--aqua-900)'}} className="fa">&#xf004;</i> using React, Typescript, and Tailwind CSS</p>
+</div>
 }

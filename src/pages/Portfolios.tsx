@@ -1,8 +1,8 @@
-import Header from "../components/Header";
+import Header from "../ui/molecules/Header";
 import { experiences } from '../contents/Experiences';
 
 interface PortfoliosProps {
-    onClick?: () => void
+    onClick: (props: number) => void
 }
 
 export default function Portfolios({ onClick }: PortfoliosProps) {
