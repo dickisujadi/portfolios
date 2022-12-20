@@ -12,7 +12,7 @@ interface HeaderProps {
 
 export default function Header({ content, onClick }: HeaderProps) {
     const [isScrolled, setIsScrolled] = useState(false);
-    const [isMenuAppears, setIsMenuAppears] = useState(true);
+    const [isMenuAppears, setIsMenuAppears] = useState(false);
 
     useEffect(() => {
         const scrollHandler = () => {

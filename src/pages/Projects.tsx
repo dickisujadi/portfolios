@@ -6,7 +6,7 @@ import { AiFillCaretDown } from "react-icons/ai";
 
 export default function Projects() {
     const [experience, setExperience] = useState<Experience>(experiences[0]);
-    const [showMenu, setShowMenu] = useState(true)
+    const [showMenu, setShowMenu] = useState(false)
 
     const changeExperience = (newExperience: Experience) => {
         setExperience(newExperience);
