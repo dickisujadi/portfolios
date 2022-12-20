@@ -13,7 +13,8 @@ module.exports = {
         "eaciit": "#F59828",
         "kano": "#5DA6E2",
         "mitrais": "#A351F1",
-        "im2": "#3B89E9"
+        "im2": "#3B89E9",
+        "primary-grey": "#565656"
       },
       backgroundColor: {
         "grey-200": "var(--grey-200)",

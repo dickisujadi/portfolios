@@ -2,6 +2,7 @@ import eaciit from "../assets/eaciit.png";
 import kano from "../assets/kano.png";
 import mitrais from "../assets/mitrais.png";
 import im2 from "../assets/im2.png";
+import bsi from "../assets/bsi.png";
 import { Experience } from "../typings/Interfaces";
 
 export const experiences: Experience[] = [
@@ -20,6 +21,7 @@ export const experiences: Experience[] = [
         ],
         logo: eaciit,
         color: 'text-eaciit',
+        industry: 'Oil and Gas Industry'
     },
     {
         id: 1,
@@ -35,6 +37,7 @@ export const experiences: Experience[] = [
         ],
         logo: kano,
         color: 'text-kano',
+        industry: 'Retail Industry'
     },
     {
         id: 2,
@@ -50,6 +53,7 @@ export const experiences: Experience[] = [
         ],
         logo: mitrais,
         color: 'text-mitrais',
+        industry: ''
     },
     {
         id: 3,
@@ -62,8 +66,9 @@ export const experiences: Experience[] = [
             "Enhanced Mitsubishi's application by gathering business value from client's stakeholders, translating into technical solutions to be provided to developers.",
             "Organized technical documentations to be presented on UAT and SIT with client's stakeholders."
         ],
-        logo: mitrais,
+        logo: bsi,
         color: 'text-mitrais',
+        industry: 'Retail Industry'
     },
     {
         id: 4,
@@ -80,5 +85,6 @@ export const experiences: Experience[] = [
         ],
         logo: im2,
         color: 'text-im2',
+        industry: 'Telecommunication Industry'
     }
 ]

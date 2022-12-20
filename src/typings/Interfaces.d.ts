@@ -8,6 +8,7 @@ export interface Experience {
     jobDesc: string[],
     logo: string,
     color: string,
+    industry: string,
 }
 
 export interface Page {

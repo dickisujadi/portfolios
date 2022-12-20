@@ -33,7 +33,7 @@ export default function Header({ content, onClick }: HeaderProps) {
         },
         { 
             name: 'projects',
-            pageIndex: pages.portfolios
+            pageIndex: pages.projects
         },
         { 
             name: 'contact',
@@ -44,7 +44,7 @@ export default function Header({ content, onClick }: HeaderProps) {
     
     return <div className={`fixed w-screen min-h-[10vh] ${isScrolled && 'shadow-xl'} bg-white z-20 flex flex-row items-center justify-center`}>
         {contents.map(content => {
-            return <TextBlueHover content={content} onClick={onClick}/>
+            return <TextBlueHover content={content} onClick={onClick} key={content.name}/>
         })}
     </div>
 }

@@ -11,7 +11,6 @@ interface AboutProps {
 
 export default function About({onClick}: AboutProps) {
     return <>
-        <Header onClick={onClick}/>
         <div className="w-full py-[10vh]">
             <div className="my-[10vh]">
                 <p className="text-5xl">Hi!</p>
@@ -22,9 +21,8 @@ export default function About({onClick}: AboutProps) {
                 <p className="text-[3.5rem] font-extralight">I do <span className="font-normal">Code</span></p>
             </div>
             <div className="w-1/5 xs:w-3/5 sm:w-2/5 mx-auto my-[10vh]">
-                <Button content="See What I've Done" onClick={() => {onClick(pages.portfolios)}} />
+                <Button content="See What I've Done" onClick={() => {onClick(pages.projects)}} />
             </div>
         </div>
-        <Footer />
     </>
 }
