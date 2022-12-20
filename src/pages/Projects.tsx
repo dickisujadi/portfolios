@@ -35,7 +35,7 @@ export default function Projects() {
         <div className="xs:flex flex-row hidden py-[1vh] mx-[5vw] hover:cursor-pointer fixed bg-white w-screen" onClick={setMenuHandler}>{experience.company} <AiFillCaretDown /></div>
         }
 
-        <div className="max-w-[70vw] mx-[5vw] text-left pt-[10vh]">
+        <div className="max-w-[70vw] mx-[5vw] text-left xs:pt-[10vh]">
             <p className={`${experience.color} font-['Roboto'] text-2xl sm:text-xl xs:text-lg`}>{experience.company}</p>
             <p className="text-4xl sm:text-3xl xs:text-2xl">{experience.position}</p>
             <div className="my-8 text-primary-grey">
