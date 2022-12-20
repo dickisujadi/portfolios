@@ -21,9 +21,9 @@ module.exports = {
       },
     },
     screens: {
-      'xs' : {'max': '375px'},
+      'xs' : {'max': '414px'},
 
-      'sm': {'min': '376px', 'max': '1279px'},
+      'sm': {'min': '415px', 'max': '1279px'},
       // => @media (max-width: 1023px) { ... }
   
       'lg': {'min': '1280px'},
