@@ -51,7 +51,7 @@ export default function Header({ content, onClick }: HeaderProps) {
 
     
     return <>
-        <div className={`fixed w-screen min-h-[10vh] xs:h-[13vh] ${isScrolled && 'shadow-xl xs:shadow-none'} bg-white z-20 flex flex-row items-center justify-center xs:flex-col`}>
+        <div className={`fixed w-screen min-h-[10vh] xs:h-[15vh] ${isScrolled && 'shadow-xl xs:shadow-none'} bg-white z-20 flex flex-row items-center justify-center xs:flex-col`}>
             <div className={`xs:block hidden ${isMenuAppears&& 'w-screen px-[30vw]'}`} onClick={setMenuHandler}>
                 {isMenuAppears? <GrFormClose className="hover:cursor-pointer"/> : <TbMenu />}
             </div>
