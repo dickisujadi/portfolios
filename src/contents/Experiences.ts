@@ -60,10 +60,10 @@ export const experiences: Experience[] = [
         company: "Pt. BSI (Mitrais' Client)",
         country: 'Indonesia',
         period: 'Aug 2018 - Jan 2019',
-        position: 'Software Engineer',
+        position: 'Business Analyst',
         jobDescHeader: "Enhanced Mitsubishi's Sales System, job descriptions such as:",
         jobDesc: [
-            "Enhanced Mitsubishi's application by gathering business value from client's stakeholders, translating into technical solutions to be provided to developers.",
+            "Gathering business value from client's stakeholders, translating into technical solutions to be provided to developers.",
             "Organized technical documentations to be presented on UAT and SIT with client's stakeholders."
         ],
         logo: bsi,
