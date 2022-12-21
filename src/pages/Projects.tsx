@@ -29,18 +29,18 @@ export default function Projects() {
                 <GrFormClose className="hover:cursor-pointer" onClick={setMenuHandler}/>
             </div>
             {experiences.map((experience_: Experience, index:number) => {
-                return <p className={`hover:cursor-pointer my-[.5vh] ${experience_.id == experience.id && 'text-[var(--primary-blue)]'}`} key={index} onClick={() => changeExperience(experience_)}>
+                return <p className={`hover:cursor-pointer my-[.5vh] ${experience_.id == experience.id && `${experience.color}`}`} key={index} onClick={() => changeExperience(experience_)}>
                     {experience_.company}
                 </p>
             })}
         </div>:
         <div className="xs:flex flex-row hidden py-[1vh] mx-[5vw] hover:cursor-pointer fixed bg-white w-screen" onClick={setMenuHandler}>
-            <AiFillCaretDown />{experience.company}
+            <AiFillCaretDown /><p className={`${experience.color}`}>{experience.company}</p>
         </div>
         }
 
-        <div className={`max-w-[70vw] mx-[5vw] text-left xs:pt-[10vh] ${showMenu && 'xs:pt-[20vh]'}`}>
-            <p className={`${experience.color} font-['Roboto'] text-2xl sm:text-xl xs:text-lg`}>{experience.company}</p>
+        <div className={`max-w-[70vw] mx-[5vw] text-left xs:pt-[5vh] ${showMenu && 'xs:pt-[20vh]'}`}>
+            <p className={`${experience.color} font-['Roboto'] text-2xl sm:text-xl xs:hidden`}>{experience.company}</p>
             <p className="text-4xl sm:text-3xl xs:text-2xl">{experience.position}</p>
             <div className="my-8 text-primary-grey">
                 <p className="text-xl sm:text-lg xs:text-base">{experience.period}</p>
