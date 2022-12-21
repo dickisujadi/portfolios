@@ -21,7 +21,7 @@ export default function Projects() {
     return <div className="flex flex-row w-screen mx-[10vw] py-[15vh] xs:flex-col">
         <div className="max-w-[10vw] flex flex-col xs:hidden">
             {experiences.map((experience_: Experience, index:number) => {
-                return <img key={index} src={experience_.logo} alt={`${experience_.id}`} className={`w-[10vw] py-[2vh] hover:cursor-pointer grayscale ${experience_.id == experience.id && 'grayscale-0'}`} onClick={() => changeExperience(experience_)}/>
+                return <img key={index} src={experience_.logo} alt={`${experience_.id}`} className={`w-[5vw] py-[2vh] hover:cursor-pointer grayscale ${experience_.id == experience.id && 'grayscale-0'}`} onClick={() => changeExperience(experience_)}/>
             })}
         </div>
         {showMenu ? <div className="hidden xs:block xs:fixed flex-col mx-[5vw] text-left mb-[3vh] bg-white w-screen pb-[2vh]">
