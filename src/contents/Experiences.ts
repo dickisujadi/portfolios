@@ -1,13 +1,31 @@
-import eaciit from "../assets/eaciit.png";
-import kano from "../assets/kano.png";
-import mitrais from "../assets/mitrais.png";
-import im2 from "../assets/im2.png";
-import bsi from "../assets/bsi.png";
-import { Experience } from "../typings/Interfaces";
+import sqe from "../assets/sqe.svg";
+import eaciit from "../assets/eaciit.svg";
+import kano from "../assets/kano.svg";
+import mitrais from "../assets/mitrais.svg";
+import im2 from "../assets/im2.svg";
+import bsi from "../assets/bsi.svg";
+import { Experience } from "../static/Interfaces";
 
 export const experiences: Experience[] = [
     {
         id: 0,
+        company: 'Pt. Sinarmas-QE',
+        country: 'Indonesia',
+        period: 'January 2023 – present',
+        position: 'Senior Front End Engineer',
+        jobDescHeader: 'Participating in Customer Care application which has chat and video call features, jod description such as:',
+        jobDesc: [
+            'Managed Software folder and created ui components which reusable and easy to use.',
+            'Conducted pull request reviews for teammates based on desired functionalities, consistencies, and code efficiency.',
+            'Presented the state management library options on the teams and participated into decision making.',
+            'Contributed to the signaling logic and implementation of video and voice call feature.'
+        ],
+        logo: sqe,
+        color: 'text-eaciit',
+        industry: 'Oil and Gas Industry'
+    },
+    {
+        id: 1,
         company: 'Eaciit Vyasa, Pte. Ltd',
         country: 'Singapore',
         period: 'Jan 2022 - Dec 2022',
@@ -24,7 +42,7 @@ export const experiences: Experience[] = [
         industry: 'Oil and Gas Industry'
     },
     {
-        id: 1,
+        id: 2,
         company: 'Pt. Kano Teknologi Utama',
         country: 'Indonesia',
         period: 'Apr 2020 - Dec 2021',
@@ -40,7 +58,7 @@ export const experiences: Experience[] = [
         industry: 'Retail Industry'
     },
     {
-        id: 2,
+        id: 3,
         company: 'Pt. Mitrais',
         country: 'Indonesia',
         period: 'Apr 2018 - Jun 2019',
@@ -56,7 +74,7 @@ export const experiences: Experience[] = [
         industry: ''
     },
     {
-        id: 3,
+        id: 4,
         company: "Pt. BSI (Mitrais' Client)",
         country: 'Indonesia',
         period: 'Aug 2018 - Jan 2019',
@@ -71,7 +89,7 @@ export const experiences: Experience[] = [
         industry: 'Retail Industry'
     },
     {
-        id: 4,
+        id: 5,
         company: "Pt. Indosat Mega Media",
         country: 'Indonesia',
         period: 'Sep 2012 - Jul 2013',
