@@ -24,7 +24,7 @@ export default function Portfolios({ experience, onClickChangeExp, onClickOpenMo
                             key={`${_experience.id}-${idx}`}
                             src={_experience.logo} 
                             alt={_experience.company} 
-                            className={`cursor-pointer mx-auto hover:mix-blend-normal my-5vh
+                            className={`max-w-[3rem] max-h-12 cursor-pointer mx-auto hover:mix-blend-normal my-5vh
                                 ${_experience.id === experience.id ? 'mix-blend-normal' : 'mix-blend-luminosity'} 
                                 ${_experience.id === 0 && 'mt-0'}
                             `} 

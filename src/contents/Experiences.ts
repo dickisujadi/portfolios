@@ -11,7 +11,7 @@ export const experiences: Experience[] = [
         id: 0,
         company: 'Pt. Sinarmas-QE',
         country: 'Indonesia',
-        period: 'January 2023 – present',
+        period: 'Jan 2023 – present',
         position: 'Senior Front End Engineer',
         jobDescHeader: 'Participating in Customer Care application which has chat and video call features, jod description such as:',
         jobDesc: [
