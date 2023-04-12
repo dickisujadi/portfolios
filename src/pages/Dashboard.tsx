@@ -44,7 +44,7 @@ export default function Dashboard() {
     }
 
     return (
-        <div className="bg-gradient-to-b from-primary-blue to-primary-peach w-screen h-fit min-h-screen px-15vw pt-5vh sm:px-10vw sm:pt-0">
+        <div className="w-screen h-fit min-h-screen px-15vw pt-5vh sm:px-10vw sm:pt-0">
             {
                 isModalExpOpen && 
                 <ModalExperience 

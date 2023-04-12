@@ -13,8 +13,9 @@ body {
   text-align: center;
   align-items: center;
   align-content: center;
-  background-color: white;
+  /* background-color: white; */
   color: black;
+  background: linear-gradient(180deg, #013A4E 0%, #CD6F63 85.94%);
 }
 
 code {

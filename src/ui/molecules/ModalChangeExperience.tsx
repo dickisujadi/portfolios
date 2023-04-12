@@ -14,7 +14,7 @@ export default function ModalExperience({ expIndex, onClickChangeExpIndex, onCli
                 {experiences && experiences.length && experiences.map(experience => (
                     <img 
                         key={experience.id}
-                        className={`my-5vh mx-auto ${expIndex === experience.id ? 'mix-blend-normal' : 'mix-blend-luminosity'}`}
+                        className={`w-11 my-5vh mx-auto ${expIndex === experience.id ? 'mix-blend-normal' : 'mix-blend-luminosity'}`}
                         src={experience.logo} 
                         alt="experience logo" 
                         onClick={() => onClickChangeExpIndex(experience.id)}
