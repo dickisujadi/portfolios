@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Header from "../ui/molecules/Header";
 import { pagesMapping } from "../utilities/PagesMapping";
 import Home from "../ui/molecules/Home";
