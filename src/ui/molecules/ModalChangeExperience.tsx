@@ -20,11 +20,6 @@ export default function ModalExperience({ expIndex, onClickChangeExpIndex, onCli
                         onClick={() => onClickChangeExpIndex(experience.id)}
                     />
                 ))}
-                {/* {contents && contents.length && contents.map(content => (
-                    <p className={`my-5vh text-2xl ${content.pageIndex === contentIndex && 'underline underline-offset-4'}`} onClick={() => onClickChangeExperience(content.pageIndex)}>
-                        {content.name}
-                    </p>
-                ))} */}
             </div>
         </div>
     )    
