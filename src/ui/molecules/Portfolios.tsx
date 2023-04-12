@@ -40,7 +40,7 @@ export default function Portfolios({ experience, onClickChangeExp, onClickOpenMo
                             onClick={onClickOpenModal}
                             >
                             {experience.company}
-                            <p className="hidden sm:block rotate-90 ml-4">{`>`}</p>
+                            <p className="hidden sm:block rotate-90 ml-auto">{`>`}</p>
                         </div>
 
                         <p className="hidden font-bold text-4xl sm:block sm:text-3xl mt-5">{experience.position}</p>
