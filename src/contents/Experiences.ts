@@ -9,7 +9,7 @@ import { Experience } from "../static/Interfaces";
 export const experiences: Experience[] = [
     {
         id: 0,
-        company: 'Pt. Sinarmas-QE',
+        company: 'SQE',
         country: 'Indonesia',
         period: 'Jan 2023 – present',
         position: 'Senior Front End Engineer',
@@ -22,11 +22,11 @@ export const experiences: Experience[] = [
         ],
         logo: sqe,
         color: 'text-eaciit',
-        industry: 'Oil and Gas Industry'
+        industry: 'Financial Digital Service'
     },
     {
         id: 1,
-        company: 'Eaciit Vyasa, Pte. Ltd',
+        company: 'Eaciit',
         country: 'Singapore',
         period: 'Jan 2022 - Dec 2022',
         position: 'Front End Engineer',
@@ -43,11 +43,11 @@ export const experiences: Experience[] = [
     },
     {
         id: 2,
-        company: 'Pt. Kano Teknologi Utama',
+        company: 'Kano',
         country: 'Indonesia',
         period: 'Apr 2020 - Dec 2021',
         position: 'Software Engineer',
-        jobDescHeader: "Managed Pt. HM Sampoerna's Sales System with job descriptions such as:",
+        jobDescHeader: "Managed Sampoerna's (big tobacco company in Indonesia) Sales System with job descriptions such as:",
         jobDesc: [
             "Cooperated with client's stakeholders to gather business-values, translated into technical solutions and implemented using C# .Net and SQL Server features.",
             "Presented technical solutions which meet business-values by conducting UAT.",
@@ -59,7 +59,7 @@ export const experiences: Experience[] = [
     },
     {
         id: 3,
-        company: 'Pt. Mitrais',
+        company: 'Mitrais',
         country: 'Indonesia',
         period: 'Apr 2018 - Jun 2019',
         position: 'Software Engineer',
@@ -75,7 +75,7 @@ export const experiences: Experience[] = [
     },
     {
         id: 4,
-        company: "Pt. BSI (Mitrais' Client)",
+        company: "BSI (Mitrais' Client)",
         country: 'Indonesia',
         period: 'Aug 2018 - Jan 2019',
         position: 'Business Analyst',
@@ -90,7 +90,7 @@ export const experiences: Experience[] = [
     },
     {
         id: 5,
-        company: "Pt. Indosat Mega Media",
+        company: "Indosat Mega Media",
         country: 'Indonesia',
         period: 'Sep 2012 - Jul 2013',
         position: 'Project Lead',
