@@ -9,7 +9,7 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <>
-      <main className="h-[300vh]">
+      <main className="text-white">
         <Background />
         {children}
       </main>
