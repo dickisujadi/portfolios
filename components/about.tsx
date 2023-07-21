@@ -7,7 +7,7 @@ import {
 
 export default function About() {
   return (
-    <div className="flex flex-col h-screen justify-center items-center">
+    <div className="flex flex-col h-screen justify-center items-center text-center">
       <h1 className={`${montserrat_100.className} text-7xl sm:text-5xl`}>
         DICKI <span className={montserrat_400.className}>SUJADI</span>
       </h1>
