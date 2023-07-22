@@ -12,7 +12,7 @@ export default function LinkedInIcon({ onClick }: Props) {
         src="/assets/linkedin.svg"
         width="250"
         height="113"
-        className="h-[4vh] w-[4vw] cursor-pointer"
+        className="h-[4vh] w-[4vw] cursor-pointer sm:h-[9vh] sm:w-[9vw]"
         alt="empty state"
         priority
         sizes="250px"
