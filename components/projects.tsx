@@ -5,6 +5,7 @@ import {
   montserrat_400,
 } from "@/common/fonts";
 import LinkedInIcon from "./common/icons/linkedin";
+import TagManager from "react-gtm-module";
 
 export default function Projects() {
   return (
@@ -39,9 +40,14 @@ export default function Projects() {
           See more on my LinkedIn
         </p>
         <LinkedInIcon
-          onClick={() =>
-            window.open("https://www.linkedin.com/in/dickisujadi/", "_blank")
-          }
+          onClick={() => {
+            TagManager.dataLayer({
+              dataLayer: {
+                event: "Linkedin_click",
+              },
+            });
+            window.open("https://www.linkedin.com/in/dickisujadi/", "_blank");
+          }}
         />
       </div>
     </>
